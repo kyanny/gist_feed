@@ -5,6 +5,7 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <link rel="alternate" type="application/atom+xml" title="Atom feed" href="<%= feed_gists_url(format: 'rss') %>" />
 </head>
 <body>
 
