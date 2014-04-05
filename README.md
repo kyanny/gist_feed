@@ -19,7 +19,7 @@ Make sure your access token has `gist` scope.
 ------------------------
 
 ```
-$ git clone https://github.com/kyanny/gistfeed.git
+$ git clone https://github.com/kyanny/gist_feed.git
 ```
 
 3. Create new Heroku application and deploy this application code
