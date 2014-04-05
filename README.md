@@ -27,10 +27,12 @@ $ heroku apps:create
 $ git push heroku master
 ```
 
-4. Setup GitHub access token to Heroku application
+4. Setup GitHub access token and basic auth credentials to Heroku application
 
 ```
 $ heroku config:set OCTOKIT_ACCESS_TOKEN=XXXXXXXXXXXXXXXX
+$ heroku config:set BASIC_AUTH_USER=XXXX
+$ heroku config:set BASIC_AUTH_PASSWORD=XXXX
 ```
 
 Notes
