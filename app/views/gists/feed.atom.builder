@@ -1,8 +1,8 @@
 atom_feed do |feed|
   feed.title "My Gists"
-  feed.update @gists.maximum(:created_at)
+  feed.update @gists.max_by(&:published_at).published_at
   @gists.each do |gist|
-    feed.entry gist, published: gist.created_at do |entry|
+    feed.entry gist, published: gist.published_at do |entry|
       entry.title gist.description
       entry.content gist.description
       entry.author do |author|
