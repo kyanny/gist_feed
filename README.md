@@ -43,3 +43,8 @@ Notes
 =====
 
 Due to Heroku's timeout, Generated RSS feed has only 10 items.
+
+License
+=======
+
+MIT License
